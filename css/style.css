@@ -1,0 +1,64 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+/*  */
+.navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+/*  */
+section:first-of-type {
+  min-height: calc(100vh - 72px);
+}
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+  color: white;
+}
+section:first-of-type svg,
+footer svg {
+  border: 1px solid #b42929;
+  border-radius: 25px;
+  box-shadow: inset 1px -1px 1px 0px #b42929;
+}
+section:first-of-type svg:hover,
+footer svg:hover {
+  box-shadow: inset -2px 3px 1px 0px #b42929;
+}
+/*  */
+section:nth-of-type(2) p,
+section:nth-of-type(3) p {
+  word-break: break-all;
+}
+/*  */
+section:nth-of-type(4) .malak-1 {
+  background-color: #d1e7dd;
+  color: #044726;
+}
+section:nth-of-type(4) .a7a-1 {
+  border-bottom: 1px solid #044726;
+}
+section:nth-of-type(4) .malak-2 {
+  background-color: #e7d1db;
+  color: #470425;
+}
+section:nth-of-type(4) .a7a-2 {
+  border-bottom: 1px solid #470425;
+}
+section:nth-of-type(4) svg {
+  color: white;
+  width: 3rem;
+  height: 3rem;
+  transition: all 1s;
+}
+section:nth-of-type(4) svg:hover {
+  background-color: #dc3545;
+}
+section:nth-of-type(4) .aaa h2 {
+  padding: 0.5rem;
+  margin: 1rem auto;
+  transition: all 0.5s;
+}
+section:nth-of-type(4) .aaa h2:hover {
+  color: white;
+  background-color: #dc3545;
+}
